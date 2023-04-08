@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="img/raph_title.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>Plots 3D</title>
+</head>
+<body>
+    <div class="top-container">
+
+        <h1>3D Graph Plotter</h1>
+        <h6>" Visualize your thoughts "</h6>
+        <p>Welcome to the world of 3D. Enter a mathematical equation in terms of x and y to generate a 3D plot of the equation.
+            <br>[You have to keep 0 in the right side of the equation always. And just write the left side of the equation here. We do not accept equal sign.] </p>
+    </div>
+    <div class="form-container">
+        <form action="/plot" method="POST">
+            <label for="equation_input" style="display: inline-block;">Write the equation here:</label>
+            <br>
+            <input type="text" name="equation" id="equation_input" required style="display: inline-block;" placeholder="ex: x^2 + y^2 - 6">
+            <br>
+
+            <button type="submit" style="display: inline-block; background-color: orange; color: black;">Plot</button>
+
+        </form>
+    </div>
+
+    <footer>
+        <br><br>
+        Visit Wikipedia to know more about it
+        <br><br>
+    </footer>
+</body>
+</html>
+

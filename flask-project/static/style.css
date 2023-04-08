@@ -1,0 +1,108 @@
+body {
+  background: linear-gradient(to bottom right, #3B3B98, #8E44AD);
+  height: 100%;
+  margin: 0;
+}
+
+
+
+h1 {
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: orange;
+    margin-top: 50px;
+}
+
+h6 {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: orange;
+    margin-top: 4px;
+}
+
+
+p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: yellow;
+}
+
+h5 {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: yellow;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    color: white;
+    font-size: 32px;
+}
+
+input {
+    font-size: 24px;
+    padding: 10px;
+    width: 400px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+button {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+
+.error_body{
+   background: gray;
+   height: 100%;
+   margin: 0;
+}
+
+.error_message{
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+
+}
+
+.suggest_message{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: black;
+
+}
+

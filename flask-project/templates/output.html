@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>3D Plot</title>
+</head>
+<body class="output">
+
+    <h3>
+        <p style="text-align: center;">Here is the diagram for : {{ input_text }}</p>
+        {{ plot_div|safe }}
+
+        <br><p>Thanks for using Plots 3D</p>
+        <h5>It may work slow because this software is under construction. Sorry for the issue.</h5><br>
+        <br><br>
+     </h3>
+
+
+    <br><br><br><br>
+
+</body>
+
+<footer>
+    <br><br>
+        Visit Wikipedia to know more about it
+    <br><br>
+</footer>
+
+</html>
+
+

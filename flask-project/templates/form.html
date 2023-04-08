@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enter an equation</title>
+</head>
+<body>
+    <form method="POST" action="{{ url_for('plot') }}">
+        <label for="equation">Equation:</label>
+        <input type="text" name="equation" id="equation" required><br><br>
+        <input type="submit" value="Plot">
+
+
+    </form>
+</body>
+</html>
